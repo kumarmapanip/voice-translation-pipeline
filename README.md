@@ -130,9 +130,7 @@ the `say` fallback and the Makefile's sample/demo helpers.
 ## Alternative backends
 
 The default `--engine auto` uses Groq when `GROQ_API_KEY` is set. The code also
-supports Gemini (`--engine gemini`) for ASR + translation if you prefer, but
-the free tier is much smaller (~20 requests/day per model) so it is not the
-recommended path.
+supports Gemini (`--engine gemini`) for ASR + translation.
 
 Model overrides:
 - Groq: `GROQ_ASR_MODEL`, `GROQ_MT_MODEL`
@@ -141,7 +139,7 @@ Model overrides:
 
 ## Running it directly
 
-Everything the Makefile does, you can also do by hand:
+Use the Makefile or you can also run by hand:
 
 ```sh
 .venv/bin/python main.py                                      # live mic
