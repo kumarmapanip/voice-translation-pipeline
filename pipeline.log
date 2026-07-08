@@ -1,0 +1,15 @@
+2026-07-09 04:20:16,818 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2026-07-09 04:20:16,819 [INFO] pipeline.orchestrator:   EN (1637 ms): Can we move the meeting to 5 p.m. tomorrow?
+2026-07-09 04:20:17,457 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-09 04:20:17,464 [INFO] pipeline.orchestrator:   HI (645 ms): क्या हम मीटिंग को कल शाम 5 बजे के लिए रख सकते हैं?
+2026-07-09 04:20:19,598 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2026-07-09 04:20:19,598 [INFO] pipeline.orchestrator:   EN (474 ms): Also, uh, can you send the Google Meet link?
+2026-07-09 04:20:19,663 [INFO] pipeline.orchestrator:   TTS (2199 ms), total 4481 ms
+2026-07-09 04:20:20,184 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-09 04:20:20,185 [INFO] pipeline.orchestrator:   HI (587 ms): साथ ही, क्या आप Google Meet का लिंक भेज सकते हैं?
+2026-07-09 04:20:21,844 [INFO] pipeline.orchestrator:   TTS (1659 ms), total 2721 ms
+2026-07-09 04:20:23,280 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2026-07-09 04:20:23,281 [INFO] pipeline.orchestrator:   EN (370 ms): You know, the ETA for the report is Friday.
+2026-07-09 04:20:23,687 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-09 04:20:23,689 [INFO] pipeline.orchestrator:   HI (409 ms): रिपोर्ट का अनुमानित आगमन समय शुक्रवार है।
+2026-07-09 04:20:26,073 [INFO] pipeline.orchestrator:   TTS (2383 ms), total 3162 ms
